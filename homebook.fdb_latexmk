@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1773677558.09219 "homebook.idx" "homebook.ind" "homebook" 1773958805.70879 0
-  "homebook.idx" 1773958804 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1773677558.09219 "homebook.idx" "homebook.ind" "homebook" 1773959744.5891 0
+  "homebook.idx" 1773959743 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1773958804.61631 "c:/Users/donat/Desktop/Report_Lab1_QubitElectronics/homebook.tex" "homebook.pdf" "homebook" 1773958805.70916 0
+["pdflatex"] 1773959743.52485 "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1773959744.5894 0
   "C:/Users/donat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773652747 82862 5cfc99bb35d1c98f6fcb48c5cfcd7edb ""
   "C:/Users/donat/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729692926 11948238 cef82a51cc5d8db5d373796a8632c032 ""
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -83,20 +83,20 @@
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "c:/Users/donat/Desktop/Report_Lab1_QubitElectronics/homebook.tex" 1773677387 2467 65c4a4a3681a71529bbbea44f1f4fa89 ""
-  "exercise 1/RLCParallelCircuit.png" 1773680765 11339 ed8828dee3114ac840814b0bfefd837f ""
-  "exercise 1/exercise1.tex" 1773680812 4563 47c91a47cdd27318abf8b85c09272491 ""
-  "exercise 2/exercise2.tex" 1773671715 1481 13197d63ba91a78d421164d06ec4e389 ""
-  "exercise 3/exercise3.tex" 1773619774 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "exercise 4/JosephsonJunction.png" 1773680786 36637 cf9d778f651b59251cdd68fc429b77f9 ""
-  "exercise 4/exercise4.tex" 1773958799 1930 aa6e37ba07138dd0e2e5ab4936959362 ""
-  "exercise 5/exercise5.tex" 1773619790 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "exercise 6/exercise6.tex" 1773619795 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "homebook.aux" 1773958805 2477 493c447da07eee6aab3f22b65d8a6fe4 "pdflatex"
-  "homebook.ind" 1773677558 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
-  "homebook.tex" 1773677387 2467 65c4a4a3681a71529bbbea44f1f4fa89 ""
-  "homebook.toc" 1773958805 641 f53e1500735bbf851845ae1c1e423ead "pdflatex"
-  "logopoli.png" 1773618023 312859 655543f184342f9809abd3950ec800c1 ""
+  "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab01_Report/homebook.tex" 1773959676 2467 65c4a4a3681a71529bbbea44f1f4fa89 ""
+  "exercise 1/RLCParallelCircuit.png" 1773959676 11339 ed8828dee3114ac840814b0bfefd837f ""
+  "exercise 1/exercise1.tex" 1773959676 4563 47c91a47cdd27318abf8b85c09272491 ""
+  "exercise 2/exercise2.tex" 1773959676 1481 13197d63ba91a78d421164d06ec4e389 ""
+  "exercise 3/exercise3.tex" 1773959741 24 95545d664f3698300abb850ccc9a1724 ""
+  "exercise 4/JosephsonJunction.png" 1773959676 36637 cf9d778f651b59251cdd68fc429b77f9 ""
+  "exercise 4/exercise4.tex" 1773959676 1930 aa6e37ba07138dd0e2e5ab4936959362 ""
+  "exercise 5/exercise5.tex" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "exercise 6/exercise6.tex" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "homebook.aux" 1773959744 2477 493c447da07eee6aab3f22b65d8a6fe4 "pdflatex"
+  "homebook.ind" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
+  "homebook.tex" 1773959676 2467 65c4a4a3681a71529bbbea44f1f4fa89 ""
+  "homebook.toc" 1773959744 641 f53e1500735bbf851845ae1c1e423ead "pdflatex"
+  "logopoli.png" 1773959676 312859 655543f184342f9809abd3950ec800c1 ""
   (generated)
   "homebook.aux"
   "homebook.idx"

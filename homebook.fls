@@ -1,6 +1,6 @@
-PWD c:\Users\donat\Desktop\Report_Lab1_QubitElectronics
+PWD c:\Users\donat\Desktop\QubitElectronics_Labs\Qubit_Electronics_Lab01_Report
 INPUT C:\Users\donat\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\donat\Desktop\Report_Lab1_QubitElectronics\homebook.tex
+INPUT c:\Users\donat\Desktop\QubitElectronics_Labs\Qubit_Electronics_Lab01_Report\homebook.tex
 OUTPUT homebook.log
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
