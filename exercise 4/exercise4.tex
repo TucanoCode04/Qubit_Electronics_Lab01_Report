@@ -1,0 +1,38 @@
+%chapter 4
+\chapter{Josephson Junction}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./exercise 4/JosephsonJunction.png}
+\caption{Parallel RLC circuit implemented in LTspice}
+\label{fig:ltspice}
+\end{figure}
+
+The circuit shown in Figure~\ref{fig:ltspice} models a Josephson junction using a parallel RLC configuration.
+The left branch, composed of the controlled source $B1$ and the capacitor $C1$, generates the phase difference $\phi$ across the junction, since the capacitor integrates the voltage and therefore determines the phase evolution. 
+The source $B2$ models the Josephson supercurrent $I_s = I_c \sin(\phi)$, while $R1$ represents the normal resistive channel of the junction. 
+Finally, $B3$ provides a time-dependent bias current that drives the junction.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
+\hline Peak & Time (ns) \\
+\hline
+\text{peak 1} &  83.785\\
+\text{peak 2} &  84.122\\
+\text{peak 3} &  84.399\\
+\text{peak 4} &  84.643\\
+\text{peak 5} &  84.866\\
+\hline
+\end{tabular}
+\caption{Time of the peaks observed in the voltage across the junction.}
+\label{tab:peaks}
+\end{table}
+
+From the peak times reported in Table~\ref{tab:peaks}, we observe that the time interval between consecutive peaks decreases slightly, meaning that the peaks become progressively closer in time. 
+This behavior is expected because once the bias current exceeds the critical current ($I_c = 10\,\mu\mathrm{A}$), the junction enters the voltage state and the phase evolves according to the Josephson voltage–frequency relation 
+\[
+f = \frac{2e}{h}V .
+\]
+As the bias current increases, the voltage across the junction also increases due to the resistive branch of the model. 
+Since the oscillation frequency is proportional to the voltage, the peaks occur progressively closer in time, as observed in Table~\ref{tab:peaks}.

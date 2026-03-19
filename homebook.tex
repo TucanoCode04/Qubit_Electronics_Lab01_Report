@@ -1,0 +1,119 @@
+\documentclass[10pt,  english, makeidx, a4paper, titlepage, oneside]{book}
+\usepackage{babel}
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+\usepackage{titlesec}
+\usepackage{listings} 
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\newenvironment{listato}{\footnotesize}
+                        {\normalsize }
+
+
+%\pagestyle{empty}
+
+\textwidth 15.5cm
+\textheight 23cm
+\topmargin -1cm
+\oddsidemargin -0.5cm
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{Qubit Electronics}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\rhead{\thepage}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+%\oddsidemargin -1.1cm
+
+\titleformat{\chapter}[display]
+{\normalfont\Large\filcenter\sffamily}
+{\titlerule[0.5pt]%
+\vspace{1pt}
+\titlerule
+\vspace{1pc}
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter
+}
+{1pc}
+{\titlerule
+\vspace{1pc}
+\Huge}
+
+\newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise   ~#1}}
+
+\newcommand{\homework}[1]{\subsubsection{\bf Homework   ~#1}}
+
+\newcommand{\Solution}{\subsubsection{\bf Solution}}
+
+
+
+
+\makeindex
+\begin{document}
+\frontmatter
+\begin{titlepage}
+\vspace{2cm}
+\centerline{
+\includegraphics[width=8cm]{./logopoli}}  
+%\centerline{\LARGE Politecnico di Torino}
+\bigskip
+\centerline{\LARGE Politecnico di Torino}
+\vspace{4cm}
+\centerline{\Huge\sf Lab report for the course}
+\bigskip
+\centerline{\Huge\bfseries\sf Qubit Electronics}
+\vspace{2cm}
+\centerline{\LARGE Master degree in Quantum Engineering}
+\vspace{4.4cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GROUP
+% Change the name of your group below
+%
+\centerline{\Large Authors: Group 3}
+\vspace{2cm}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AUTHORS
+% Change the name of the Group participants here
+%
+\centerline{Davide Donati, Riola Leonardo Antonio, Girotto Giacomo}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2cm}
+\centerline{\today}
+\end{titlepage}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    
+%% HERE IS THE MAIN INCLUSION
+%%
+
+\input{./exercise 1/exercise1.tex}
+%%
+
+\input{exercise 2/exercise2.tex}
+
+\input{exercise 3/exercise3.tex}
+
+\input{exercise 4/exercise4.tex}
+
+\input{exercise 5/exercise5.tex}
+
+\input{exercise 6/exercise6.tex}
+%% NOW READ THE FILE master.tex  
+\end{document}

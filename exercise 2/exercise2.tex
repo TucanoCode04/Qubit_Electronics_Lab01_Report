@@ -1,0 +1,42 @@
+%chapter 2
+\chapter{Analysis of RLC parallel circuit changing the R, L and C
+values}
+
+In this exercise, we analyze the RLC parallel circuit by changing the values of R, L and C. 
+\begin{table}[h]
+\centering
+\begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
+\hline
+ & L (\si{\nano\henry}) & R (\si{\kilo\ohm}) & C (\si{\femto\farad}) \\
+\hline
+\text{[A]} & 30 & 200 & 50 \\
+\text{[B]} & 30 & 50 & 50 \\
+\text{[C]} & 60 & 100 & 50 \\
+\text{[D]} & 15 & 100 & 50 \\
+\text{[E]} & 30 & 100 & 100 \\
+\text{[F]} & 30 & 100 & 25 \\
+\hline
+\end{tabular}
+\caption{Values of L, R and C for different cases}
+\end{table}
+
+
+We measure the resonance frequency $f_R$ and quality factor $Q$ for each case and compare them with the analytical values.
+\begin{table}[h]
+\centering
+\begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
+\hline
+ & $f_R$ analytical (GHz) & $f_R$ experimental (GHz) & $Q$ analytical & $Q$ experimental \\
+\hline
+\text{[A]} & 4.109 & 4.109 & 258.198 & 257.810 \\
+\text{[B]} & 4.109 & 4.109 & 64.549  & 64.521  \\
+\text{[C]} & 2.905 & 2.906 & 91.287  & 91.233  \\
+\text{[D]} & 5.811 & 5.811 & 182.574 & 182.432 \\
+\text{[E]} & 2.905 & 2.906 & 182.574 & 182.243 \\
+\text{[F]} & 5.811 & 5.811 & 91.287  & 91.243  \\
+\hline
+\end{tabular}
+\caption{Comparison between analytical and experimental resonance frequency and quality factor}
+\end{table}
+
+The analytical predictions are consistent with the experimental results.
