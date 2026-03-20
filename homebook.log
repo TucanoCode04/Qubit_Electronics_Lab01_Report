@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  20 MAR 2026 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  20 MAR 2026 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -235,6 +235,13 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks26
+\float@box=\box67
+\@float@everytoks=\toks27
+\@floatcapt=\box68
 ) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -244,15 +251,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
 \thm@preskip=\skip67
 \thm@postskip=\skip68
 \thm@headsep=\skip69
-\dth@everypar=\toks31
+\dth@everypar=\toks33
 ) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
@@ -269,8 +276,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-\l__pdf_internal_box=\box67
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box69
 )
 
 LaTeX Warning: Unused global option(s):
@@ -283,38 +290,38 @@ LaTeX Warning: Label `fig:ltspice' multiply defined.
 )
 \openout1 = `homebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-\c@lstlisting=\count307
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+\c@lstlisting=\count308
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 61.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 62.
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count309
 \scratchdimen=\dimen170
-\scratchbox=\box68
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count311
+\scratchbox=\box70
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen171
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks35
 ) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -324,7 +331,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <./logopoli.png, id=1, 703.9098pt x 309.7974pt>
 File: ./logopoli.png Graphic file (type png)
 <use ./logopoli.png>
-Package pdftex.def Info: ./logopoli.png  used on input line 66.
+Package pdftex.def Info: ./logopoli.png  used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 100.17715pt.
 
 
@@ -401,30 +408,65 @@ Package pdftex.def Info: ./exercise 5/TransmissionLineQubit.png  used on input l
 
 [7
 
- <./exercise 5/TransmissionLineQubit.png>]) (exercise 6/exercise6.tex)
+ <./exercise 5/TransmissionLineQubit.png>]) (exercise 6/exercise6.tex) (exercise 7/exercise7.tex
 
-[8] (homebook.aux)
+[8]
+Chapter 5.
+
+LaTeX Warning: Reference `fig:circuit_6' on page 9 undefined on input line 4.
+
+<exercise 7/graph_7_big.png, id=54, 1891.065pt x 413.545pt>
+File: exercise 7/graph_7_big.png Graphic file (type png)
+<use exercise 7/graph_7_big.png>
+Package pdftex.def Info: exercise 7/graph_7_big.png  used on input line 8.
+(pdftex.def)             Requested size: 573.32437pt x 125.37697pt.
+
+Overfull \hbox (132.30666pt too wide) in paragraph at lines 8--9
+ [][] 
+ []
+
+
+
+[9
+
+ <./exercise 7/graph_7_big.png>]
+<exercise 7/graph_7_highq.png, id=60, 1891.065pt x 413.545pt>
+File: exercise 7/graph_7_highq.png Graphic file (type png)
+<use exercise 7/graph_7_highq.png>
+Package pdftex.def Info: exercise 7/graph_7_highq.png  used on input line 25.
+(pdftex.def)             Requested size: 573.32437pt x 125.37697pt.
+
+Overfull \hbox (132.30666pt too wide) in paragraph at lines 25--26
+[][] 
+ []
+
+)
+
+[10 <./exercise 7/graph_7_highq.png>] (homebook.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10462 strings out of 473899
- 222716 string characters out of 5726499
- 636304 words of memory out of 5000000
- 33212 multiletter control sequences out of 15000+600000
- 563744 words of font info for 58 fonts, out of 8000000 for 9000
+ 10580 strings out of 473899
+ 224910 string characters out of 5726499
+ 637831 words of memory out of 5000000
+ 33313 multiletter control sequences out of 15000+600000
+ 568091 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,80p,540b,1057s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on homebook.pdf (10 pages, 481591 bytes).
+ 73i,13n,80p,818b,1057s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on homebook.pdf (12 pages, 603036 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

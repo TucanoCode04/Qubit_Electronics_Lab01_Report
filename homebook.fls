@@ -77,6 +77,8 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
@@ -188,6 +190,40 @@ INPUT .\exercise 5\TransmissionLineQubit.png
 INPUT .\exercise 6\exercise6.tex
 INPUT .\exercise 6\exercise6.tex
 INPUT exercise 6\exercise6.tex
+INPUT .\exercise 7\exercise7.tex
+INPUT .\exercise 7\exercise7.tex
+INPUT exercise 7\exercise7.tex
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT .\exercise 7\graph_7_big.png
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
+INPUT .\exercise 7\graph_7_highq.png
 INPUT homebook.aux
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
@@ -197,6 +233,10 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
@@ -205,6 +245,8 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss17.pfb
