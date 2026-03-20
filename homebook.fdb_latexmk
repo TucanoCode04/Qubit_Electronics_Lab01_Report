@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1773677558.09219 "homebook.idx" "homebook.ind" "homebook" 1773959744.5891 0
-  "homebook.idx" 1773959743 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1774030693.921 "homebook.idx" "homebook.ind" "homebook" 1774030818.35947 0
+  "homebook.idx" 1774030817 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1773959743.52485 "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1773959744.5894 0
+["pdflatex"] 1774030817.23416 "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1774030818.35981 0
   "C:/Users/donat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773652747 82862 5cfc99bb35d1c98f6fcb48c5cfcd7edb ""
   "C:/Users/donat/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729692926 11948238 cef82a51cc5d8db5d373796a8632c032 ""
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -90,12 +90,13 @@
   "exercise 3/exercise3.tex" 1773959741 24 95545d664f3698300abb850ccc9a1724 ""
   "exercise 4/JosephsonJunction.png" 1773959676 36637 cf9d778f651b59251cdd68fc429b77f9 ""
   "exercise 4/exercise4.tex" 1773959676 1930 aa6e37ba07138dd0e2e5ab4936959362 ""
-  "exercise 5/exercise5.tex" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "exercise 5/TransmissionLineQubit.png" 1774030378 14747 4000467235d207a59fa961de30b7a9ea ""
+  "exercise 5/exercise5.tex" 1774030815 1513 465370118bc1b024912ac9066879dc39 ""
   "exercise 6/exercise6.tex" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "homebook.aux" 1773959744 2477 493c447da07eee6aab3f22b65d8a6fe4 "pdflatex"
-  "homebook.ind" 1773959676 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
+  "homebook.aux" 1774030818 3089 04526f83a17abf26dcafc6606bbed7c0 "pdflatex"
+  "homebook.ind" 1774030694 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
   "homebook.tex" 1773959676 2467 65c4a4a3681a71529bbbea44f1f4fa89 ""
-  "homebook.toc" 1773959744 641 f53e1500735bbf851845ae1c1e423ead "pdflatex"
+  "homebook.toc" 1774030818 711 37c22b20ecd22a7dbd5a313ec52a3125 "pdflatex"
   "logopoli.png" 1773959676 312859 655543f184342f9809abd3950ec800c1 ""
   (generated)
   "homebook.aux"
