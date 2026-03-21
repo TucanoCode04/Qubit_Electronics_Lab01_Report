@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1774086777.49418 "homebook.idx" "homebook.ind" "homebook" 1774089360.05048 0
-  "homebook.idx" 1774089357.63202 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1774089793.57045 "homebook.idx" "homebook.ind" "homebook" 1774089796.49116 0
+  "homebook.idx" 1774089794.191 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1774089357.10422 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1774089360.05071 0
+["pdflatex"] 1774089793.7081 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1774089796.49136 0
   "/etc/texmf/web2c/texmf.cnf" 1774005325.26675 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" 1774082291.33145 2559 78ae466074f623d96b1c949561638014 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -106,17 +106,18 @@
   "exercise 3/exercise3.tex" 1774004575.80266 24 95545d664f3698300abb850ccc9a1724 ""
   "exercise 4/JosephsonJunction.png" 1774004575.80302 36637 9acbb279681a5f0aa239116beb52688b ""
   "exercise 4/exercise4.tex" 1774004575.8033 1930 56e208177a2d59eca91f9c739262781a ""
-  "exercise 5/exercise5.tex" 1774004575.8033 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "exercise 5/TransmissionLineQubit.png" 1774089787.22181 14747 025b3a8785a88568638a10a38139ab0f ""
+  "exercise 5/exercise5.tex" 1774089787.22181 1479 465370118bc1b024912ac9066879dc39 ""
   "exercise 6/exercise6.tex" 1774004575.80345 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "exercise 7/exercise7.tex" 1774089356.83063 3933 208575e08035788869053d0e419f8c35 ""
+  "exercise 7/exercise7.tex" 1774089489.00037 3933 208575e08035788869053d0e419f8c35 ""
   "exercise 7/graph_7_bigg.png" 1774089105.22885 37402 6ce045aaa9439ed946d15b58754b320e ""
   "exercise 7/graph_7_highqq.png" 1774089323.66111 36218 2c158898ce713ac00faceb42f4b9a784 ""
   "exercise 8/exercise8.tex" 1774086061.59476 738 c477a49cb06efbb12d6b583811fc9589 ""
   "exercise 8/mc_over3.png" 1774084153.86458 138269 4bd22cccaeb0a1caf1bcc517afb5dc56 ""
-  "homebook.aux" 1774089359.95601 4161 f6cde32d92c59f92f26a3285c12ce9b6 "pdflatex"
-  "homebook.ind" 1774086777.6518 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
+  "homebook.aux" 1774089796.39699 4780 17ef4ebe118b56c69f5c038a7deff15d "pdflatex"
+  "homebook.ind" 1774089793.702 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
   "homebook.tex" 1774082291.33145 2559 78ae466074f623d96b1c949561638014 ""
-  "homebook.toc" 1774089359.95801 1216 df3b100187cc30131ab646ac30e19201 "pdflatex"
+  "homebook.toc" 1774089796.39799 1290 8da4160757bd4da3e87df27e5661b61c "pdflatex"
   "logopoli.png" 1774004575.80981 312859 163d44ec6d244c6e95dd034bbd631798 ""
   (generated)
   "homebook.aux"
