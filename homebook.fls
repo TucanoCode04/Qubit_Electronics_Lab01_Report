@@ -178,11 +178,11 @@ INPUT exercise 6/exercise6.tex
 INPUT ./exercise 7/exercise7.tex
 INPUT ./exercise 7/exercise7.tex
 INPUT exercise 7/exercise7.tex
-INPUT ./exercise 7/graph_7_big.png
-INPUT ./exercise 7/graph_7_big.png
-INPUT ./exercise 7/graph_7_big.png
-INPUT ./exercise 7/graph_7_big.png
-INPUT ./exercise 7/graph_7_big.png
+INPUT ./exercise 7/graph_7_bigg.png
+INPUT ./exercise 7/graph_7_bigg.png
+INPUT ./exercise 7/graph_7_bigg.png
+INPUT ./exercise 7/graph_7_bigg.png
+INPUT ./exercise 7/graph_7_bigg.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -200,11 +200,19 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ./exercise 7/graph_7_highq.png
-INPUT ./exercise 7/graph_7_highq.png
-INPUT ./exercise 7/graph_7_highq.png
-INPUT ./exercise 7/graph_7_highq.png
-INPUT ./exercise 7/graph_7_highq.png
+INPUT ./exercise 7/graph_7_highqq.png
+INPUT ./exercise 7/graph_7_highqq.png
+INPUT ./exercise 7/graph_7_highqq.png
+INPUT ./exercise 7/graph_7_highqq.png
+INPUT ./exercise 7/graph_7_highqq.png
+INPUT ./exercise 8/exercise8.tex
+INPUT ./exercise 8/exercise8.tex
+INPUT exercise 8/exercise8.tex
+INPUT ./exercise 8/mc_over3.png
+INPUT ./exercise 8/mc_over3.png
+INPUT ./exercise 8/mc_over3.png
+INPUT ./exercise 8/mc_over3.png
+INPUT ./exercise 8/mc_over3.png
 INPUT homebook.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
