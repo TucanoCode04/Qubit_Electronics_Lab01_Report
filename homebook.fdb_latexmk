@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1774089793.57045 "homebook.idx" "homebook.ind" "homebook" 1774089796.49116 0
-  "homebook.idx" 1774089794.191 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1774176337.22246 "homebook.idx" "homebook.ind" "homebook" 1774178145.42637 0
+  "homebook.idx" 1774178142.82008 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1774089793.7081 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1774089796.49136 0
+["pdflatex"] 1774178142.30702 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" "homebook.pdf" "homebook" 1774178145.42662 0
   "/etc/texmf/web2c/texmf.cnf" 1774005325.26675 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab1/report/Qubit_Electronics_Lab01_Report/homebook.tex" 1774082291.33145 2559 78ae466074f623d96b1c949561638014 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -49,6 +49,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb" 1248133631 24416 36515493f76659302880e2604105b074 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb" 1248133631 29078 718ea4567ceff944262b0f5b0800e1d9 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -109,15 +110,16 @@
   "exercise 5/TransmissionLineQubit.png" 1774089787.22181 14747 025b3a8785a88568638a10a38139ab0f ""
   "exercise 5/exercise5.tex" 1774089787.22181 1479 465370118bc1b024912ac9066879dc39 ""
   "exercise 6/exercise6.tex" 1774004575.80345 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "exercise 7/exercise7.tex" 1774089489.00037 3933 208575e08035788869053d0e419f8c35 ""
+  "exercise 7/exercise7.tex" 1774089979.37604 3947 d2f8616cb8ff92f66e77b2723e734a20 ""
   "exercise 7/graph_7_bigg.png" 1774089105.22885 37402 6ce045aaa9439ed946d15b58754b320e ""
   "exercise 7/graph_7_highqq.png" 1774089323.66111 36218 2c158898ce713ac00faceb42f4b9a784 ""
-  "exercise 8/exercise8.tex" 1774086061.59476 738 c477a49cb06efbb12d6b583811fc9589 ""
-  "exercise 8/mc_over3.png" 1774084153.86458 138269 4bd22cccaeb0a1caf1bcc517afb5dc56 ""
-  "homebook.aux" 1774089796.39699 4780 17ef4ebe118b56c69f5c038a7deff15d "pdflatex"
-  "homebook.ind" 1774089793.702 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
+  "exercise 8/exercise8.tex" 1774178142.05537 1614 655dac6e62812f321265d70c4de99fb7 ""
+  "exercise 8/spread_lowc.png" 1774176064.97799 111511 9462ed676ecf23b6744c33e2fa960063 ""
+  "exercise 8/spread_zoom.png" 1774175764.23133 122967 5ed6670f5cfcbb1328049247bc5adfdd ""
+  "homebook.aux" 1774178145.32507 4941 9226f4b608f5c18dcb72c67aec1dc17c "pdflatex"
+  "homebook.ind" 1774176337.37292 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
   "homebook.tex" 1774082291.33145 2559 78ae466074f623d96b1c949561638014 ""
-  "homebook.toc" 1774089796.39799 1290 8da4160757bd4da3e87df27e5661b61c "pdflatex"
+  "homebook.toc" 1774178145.32707 1290 8da4160757bd4da3e87df27e5661b61c "pdflatex"
   "logopoli.png" 1774004575.80981 312859 163d44ec6d244c6e95dd034bbd631798 ""
   (generated)
   "homebook.aux"
