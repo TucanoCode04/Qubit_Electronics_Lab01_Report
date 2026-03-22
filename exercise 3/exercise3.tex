@@ -1,1 +1,39 @@
-%Giacomo puzza kekekekek
+Using the same RLC circuit as the exercise before, this time we are given the values of the capacitance, the resonance frequency, and the quality factor that we want from the circuit, reported in Table \ref{tab:parameters}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cc}
+\hline
+Parameter & Value \\
+\hline
+Capacitance $C$ & \SI{50}{\femto\farad} \\
+Resonance frequency $f_R$ & \SI{5}{\giga\hertz} \\
+Quality factor $Q$ & $10^4$ \\
+\hline
+\end{tabular}
+\caption{Circuit parameters}
+\label{tab:parameters}
+\end{table}
+
+First of all, using the inverse of the analytical formulas from before, it is easy to calculate the physical values of the resistance and inductance of the circuit needed to obtain those $\omega_r$ and $Q$.
+
+\begin{equation}
+L = \frac{1}{4\pi^2 f_R^2 C} = 30.26\text{ nH} \qquad R = Q\sqrt{\frac{L}{C}} = 6.36\text{ M}\Omega
+\end{equation}
+
+After that, through the LTspice analysis, we see, as expected, the same behavior of the voltage across the resistance as in the first two exercises. Using the same technique and directives, we discover from the simulation the values of $\omega_r$ and the quality factor.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
+\hline
+ & $f_R$ analytical (GHz) & $f_R$ experimental (GHz) & $Q$ analytical & $Q$ experimental \\
+\hline
+\text{ & 5.000 & 5.0003453 & $10^4$ & 9800 \\
+\hline
+\end{tabular}
+\caption{Comparison between given data and experimental values of resonance frequency and quality factor}
+\label{tab:comparison}
+\end{table}
+
+As we can see, the results obtained are close to the theoretical values. A curious thing is that at the beginning the values found weren't so close, because the step in frequency was too big, causing an under-approximation in the calculations. Increasing the number of steps from 10000 to 100000, thus decreasing the size of the step, the approximation obtained was better, as we can see.
