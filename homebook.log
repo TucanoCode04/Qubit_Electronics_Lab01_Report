@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  22 MAR 2026 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  23 MAR 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,7 +234,45 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box66
 \@float@everytoks=\toks27
 \@floatcapt=\box67
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/savetrees/savetrees.sty
+Package: savetrees 2016/04/13 v2.4 Pack as much text as possible onto each page
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+)
+\XKV@depth=\count300
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+\everypar=\toks30
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks31
+\MT@tempbox=\box68
+\MT@count=\count301
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks32
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen169
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count302
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip66
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -243,15 +281,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks28
-\thm@bodyfont=\toks29
-\thm@headfont=\toks30
-\thm@notefont=\toks31
-\thm@headpunct=\toks32
-\thm@preskip=\skip66
-\thm@postskip=\skip67
-\thm@headsep=\skip68
-\dth@everypar=\toks33
+\thm@style=\toks33
+\thm@bodyfont=\toks34
+\thm@headfont=\toks35
+\thm@notefont=\toks36
+\thm@headpunct=\toks37
+\thm@preskip=\skip67
+\thm@postskip=\skip68
+\thm@headsep=\skip69
+\dth@everypar=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
@@ -268,63 +306,83 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box68
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box69
 )
 
 LaTeX Warning: Unused global option(s):
     [makeidx].
 
-(./homebook.aux
-
-LaTeX Warning: Label `fig:ltspice' multiply defined.
-
-)
+(./homebook.aux)
 \openout1 = `homebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-\c@lstlisting=\count301
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+\c@lstlisting=\count304
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 62.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 65.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen169
-\scratchbox=\box69
-\nofMPsegments=\count303
-\nofMParguments=\count304
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen170
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count305
+\scratchdimen=\dimen170
+\scratchbox=\box70
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen171
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+LaTeX Info: Redefining \microtypecontext on input line 65.
+Package microtype Info: Applying patch `item' on input line 65.
+Package microtype Info: Applying patch `toc' on input line 65.
+Package microtype Info: Applying patch `eqnum' on input line 65.
+Package microtype Info: Applying patch `footnote' on input line 65.
+Package microtype Info: Applying patch `verbatim' on input line 65.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 65.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using tracking set `all'.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
 <./logopoli.png, id=1, 703.9098pt x 309.7974pt>
 File: ./logopoli.png Graphic file (type png)
 <use ./logopoli.png>
-Package pdftex.def Info: ./logopoli.png  used on input line 67.
+Package pdftex.def Info: ./logopoli.png  used on input line 70.
 (pdftex.def)             Requested size: 227.62204pt x 100.17715pt.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
  [1
 
 
@@ -333,17 +391,19 @@ Package pdftex.def Info: ./logopoli.png  used on input line 67.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 \tf@toc=\write4
 \openout4 = `homebook.toc'.
 
- [1
-
-] (./exercise 1/exercise1.tex
+ [1] (./exercise 1/exercise1.tex
 Chapter 1.
 
 Package siunitx Info: Option "scientific-notation = true" has been deprecated
@@ -351,40 +411,42 @@ Package siunitx Info: Option "scientific-notation = true" has been deprecated
 (siunitx)             
 (siunitx)             Use "exponent-mode = scientific" as a replacement.
 
-[1
-
-
-]
-<./exercise 1/RLCParallelCircuit.png, id=26, 823.075pt x 395.4775pt>
+<./exercise 1/RLCParallelCircuit.png, id=18, 823.075pt x 395.4775pt>
 File: ./exercise 1/RLCParallelCircuit.png Graphic file (type png)
 <use ./exercise 1/RLCParallelCircuit.png>
-Package pdftex.def Info: ./exercise 1/RLCParallelCircuit.png  used on input line 71.
-(pdftex.def)             Requested size: 308.71104pt x 148.32784pt.
- [2 <./exercise 1/RLCParallelCircuit.png>]) (./exercise 2/exercise2.tex [3]
-Chapter 2.
-) (./exercise 3/exercise3.tex) (./exercise 4/exercise4.tex [4
+Package pdftex.def Info: ./exercise 1/RLCParallelCircuit.png  used on input line 49.
+(pdftex.def)             Requested size: 220.50885pt x 105.94759pt.
+[1
 
-]
+ <./exercise 1/RLCParallelCircuit.png>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (./exercise 2/exercise2.tex
+Chapter 2.
+[2]) (./exercise 3/exercise3.tex
 Chapter 3.
-<./exercise 4/JosephsonJunction.png, id=38, 1199.48125pt x 786.94pt>
+[3]) (./exercise 4/exercise4.tex
+Chapter 4.
+<./exercise 4/JosephsonJunction.png, id=35, 1199.48125pt x 786.94pt>
 File: ./exercise 4/JosephsonJunction.png Graphic file (type png)
 <use ./exercise 4/JosephsonJunction.png>
 Package pdftex.def Info: ./exercise 4/JosephsonJunction.png  used on input line 6.
 (pdftex.def)             Requested size: 308.71104pt x 202.53424pt.
-[5
-
- <./exercise 4/JosephsonJunction.png>]) (./exercise 5/exercise5.tex [6]
-Chapter 4.
-<./exercise 5/TransmissionLineQubit.png, id=47, 536.0025pt x 359.09157pt>
+[4] [5 <./exercise 4/JosephsonJunction.png>]) (./exercise 5/exercise5.tex
+Chapter 5.
+<./exercise 5/TransmissionLineQubit.png, id=44, 536.0025pt x 359.09157pt>
 File: ./exercise 5/TransmissionLineQubit.png Graphic file (type png)
 <use ./exercise 5/TransmissionLineQubit.png>
 Package pdftex.def Info: ./exercise 5/TransmissionLineQubit.png  used on input line 4.
 (pdftex.def)             Requested size: 308.71104pt x 206.81575pt.
-[7
 
- <./exercise 5/TransmissionLineQubit.png>]) (./exercise 6/exercise6.tex) (./exercise 7/exercise7.tex [8]
-Chapter 5.
-<exercise 7/graph_7_bigg.png, id=55, 1882.03125pt x 607.26875pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [6 <./exercise 5/TransmissionLineQubit.png>] (./exercise 6/exercise6.tex) (./exercise 7/exercise7.tex
+Chapter 6.
+<exercise 7/graph_7_bigg.png, id=49, 1882.03125pt x 607.26875pt>
 File: exercise 7/graph_7_bigg.png Graphic file (type png)
 <use exercise 7/graph_7_bigg.png>
 Package pdftex.def Info: exercise 7/graph_7_bigg.png  used on input line 7.
@@ -394,10 +456,11 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-[9
 
- <./exercise 7/graph_7_bigg.png>]
-<exercise 7/graph_7_highqq.png, id=61, 1882.03125pt x 607.26875pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
+<exercise 7/graph_7_highqq.png, id=54, 1882.03125pt x 607.26875pt>
 File: exercise 7/graph_7_highqq.png Graphic file (type png)
 <use exercise 7/graph_7_highqq.png>
 Package pdftex.def Info: exercise 7/graph_7_highqq.png  used on input line 21.
@@ -407,48 +470,43 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 21--22
 [][] 
  []
 
-) (./exercise 8/exercise8.tex [10 <./exercise 7/graph_7_highqq.png>]
-Chapter 6.
-<exercise 8/spread_zoom.png, id=68, 1419.3025pt x 531.9875pt>
-File: exercise 8/spread_zoom.png Graphic file (type png)
-<use exercise 8/spread_zoom.png>
-Package pdftex.def Info: exercise 8/spread_zoom.png  used on input line 7.
+) (./exercise_8/exercise8.tex
+Chapter 7.
+[8 <./exercise 7/graph_7_bigg.png> <./exercise 7/graph_7_highqq.png>]
+<exercise_8/spread_zoom.png, id=62, 1419.3025pt x 531.9875pt>
+File: exercise_8/spread_zoom.png Graphic file (type png)
+<use exercise_8/spread_zoom.png>
+Package pdftex.def Info: exercise_8/spread_zoom.png  used on input line 7.
 (pdftex.def)             Requested size: 441.01772pt x 165.30406pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
 
  []
 
-<exercise 8/spread_lowc.png, id=69, 1306.8825pt x 551.05875pt>
-File: exercise 8/spread_lowc.png Graphic file (type png)
-<use exercise 8/spread_lowc.png>
-Package pdftex.def Info: exercise 8/spread_lowc.png  used on input line 14.
+<exercise_8/spread_lowc.png, id=63, 1306.8825pt x 551.05875pt>
+File: exercise_8/spread_lowc.png Graphic file (type png)
+<use exercise_8/spread_lowc.png>
+Package pdftex.def Info: exercise_8/spread_lowc.png  used on input line 14.
 (pdftex.def)             Requested size: 441.01772pt x 185.95328pt.
-) [11
-
- <./exercise 8/spread_zoom.png>] [12 <./exercise 8/spread_lowc.png>] (./homebook.aux)
+) [9 <./exercise_8/spread_zoom.png>] [10 <./exercise_8/spread_lowc.png>] (./homebook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 10498 strings out of 474222
- 219235 string characters out of 5748733
- 1979975 words of memory out of 5000000
- 32624 multiletter control sequences out of 15000+600000
- 568091 words of font info for 75 fonts, out of 8000000 for 9000
+ 13361 strings out of 474222
+ 270070 string characters out of 5748733
+ 2000975 words of memory out of 5000000
+ 35207 multiletter control sequences out of 15000+600000
+ 586448 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,80p,1016b,1060s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,13n,80p,1133b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on homebook.pdf (14 pages, 813135 bytes).
+Output written on homebook.pdf (12 pages, 815800 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81961 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -1,18 +1,19 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}RLC Parallel Circuit Analysis}{1}{}%
-\contentsline {section}{\numberline {1.1}RLC Parallel Circuit Analytical Analysis}{1}{}%
-\contentsline {section}{\numberline {1.2}LTspice Simulation}{2}{}%
+\contentsline {section}{\numberline {1.1}RLC parallel circuit analytical analysis}{1}{}%
+\contentsline {section}{\numberline {1.2}LTspice Simulation}{1}{}%
 \contentsline {subsection}{\numberline {1.2.1}Resonance Frequency}{2}{}%
 \contentsline {subsection}{\numberline {1.2.2}Bandwidth}{2}{}%
-\contentsline {subsection}{\numberline {1.2.3}Quality Factor}{3}{}%
-\contentsline {chapter}{\numberline {2}Analysis of RLC parallel circuit changing the R, L and C values}{4}{}%
-\contentsline {chapter}{\numberline {3}Josephson Junction}{5}{}%
-\contentsline {chapter}{\numberline {4}Analysis of the circuit}{7}{}%
-\contentsline {chapter}{\numberline {5}Design of the Qubit Characteristic}{9}{}%
-\contentsline {section}{\numberline {5.1}Circuit design}{9}{}%
-\contentsline {section}{\numberline {5.2}Analysis of the simulation}{9}{}%
-\contentsline {subsection}{\numberline {5.2.1}Coupled Regime}{9}{}%
-\contentsline {subsection}{\numberline {5.2.2}Dispersive Regime}{10}{}%
-\contentsline {subsection}{\numberline {5.2.3}Role of the Quality factor $Q$}{10}{}%
-\contentsline {chapter}{\numberline {6}Uncertainty}{11}{}%
-\contentsline {section}{\numberline {6.1}Analysis of the simulation}{11}{}%
+\contentsline {subsection}{\numberline {1.2.3}Quality Factor}{2}{}%
+\contentsline {chapter}{\numberline {2}Analysis of RLC parallel circuit changing the R, L and C values}{3}{}%
+\contentsline {chapter}{\numberline {3}Design an RLC parallel circuit}{4}{}%
+\contentsline {chapter}{\numberline {4}Josephson Junction}{5}{}%
+\contentsline {chapter}{\numberline {5}Analysis of the circuit}{6}{}%
+\contentsline {chapter}{\numberline {6}Design of the Qubit Characteristic}{7}{}%
+\contentsline {section}{\numberline {6.1}Circuit design}{7}{}%
+\contentsline {section}{\numberline {6.2}Analysis of the simulation}{7}{}%
+\contentsline {subsection}{\numberline {6.2.1}Coupled Regime}{7}{}%
+\contentsline {subsection}{\numberline {6.2.2}Dispersive Regime}{8}{}%
+\contentsline {subsection}{\numberline {6.2.3}Role of the Quality factor $Q$}{8}{}%
+\contentsline {chapter}{\numberline {7}Uncertainty}{9}{}%
+\contentsline {section}{\numberline {7.1}Analysis of the simulation}{9}{}%

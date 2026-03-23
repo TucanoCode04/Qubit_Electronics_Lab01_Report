@@ -8,10 +8,13 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{float}
-
+\usepackage[subtle]{savetrees}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
 \newenvironment{listato}{\footnotesize}
                         {\normalsize }
-
 
 %\pagestyle{empty}
 
@@ -119,6 +122,6 @@
 
 \input{exercise 7/exercise7.tex}
 
-\input{exercise 8/exercise8.tex}
+\input{exercise_8/exercise8.tex}
 %% NOW READ THE FILE master.tex  
 \end{document}

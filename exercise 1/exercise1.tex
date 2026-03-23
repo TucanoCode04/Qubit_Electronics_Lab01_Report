@@ -10,13 +10,9 @@
 }
 
 %%%%%%   First section
-\section{RLC Parallel Circuit Analytical Analysis}
+\section{RLC parallel circuit analytical analysis}
 
-In this section, the resonance frequency and quality factor of a parallel RLC circuit driven by an AC current source are analytically calculated.
-
-The parameters given in the assignment are reported in Table \ref{tab:parameters}.
-
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \begin{tabular}{cc}
 \hline
@@ -29,48 +25,30 @@ Capacitance $C$ & \SI{50}{\femto\farad} \\
 \hline
 \end{tabular}
 \caption{Circuit parameters}
-\label{tab:parameters}
+\label{tab:parameters1}
 \end{table}
 
-For a parallel RLC circuit the resonance frequency is given by
+Given the parameters in Table \ref{tab:parameters1}, we calculated the resonance frequency and quality factor of the parallel RLC circuit using analytical formulas:
 
 \begin{equation}
-f_R = \frac{1}{2\pi \sqrt{LC}}
+f_r = \frac{1}{2\pi \sqrt{LC}} \qquad Q = R\sqrt{\frac{C}{L}}
 \end{equation}
 
-while the quality factor is
+Substituting the numerical values we obtain:
 
 \begin{equation}
-Q = R\sqrt{\frac{C}{L}}
+f_r = 4.109 \ \si{\hertz} \qquad Q = 128
 \end{equation}
-
-Substituting the numerical values for the resonance frequency:
-
-\begin{equation}
-f_R = \frac{1}{2\pi \sqrt{(\SI{30}{\nano\henry})(\SI{50}{\femto\farad})}} \approx 4.109 \ \si{\hertz}
-\end{equation}
-
-Similarly, the quality factor becomes
-
-\begin{equation}
-Q = (\SI{100}{\kilo\ohm})\sqrt{\frac{\SI{50}{\femto\farad}}{\SI{30}{\nano\henry}}}  \approx 128
-\end{equation}
-
-These results provide the theoretical prediction of the ideal resonance behaviour of the circuit. In particular, the resonance frequency indicates that the circuit will exhibit a peak in impedance at approximately \SI{4.109}{\hertz}, while the quality factor indicates that the resonance will be relatively sharp, with a narrow bandwidth around the resonance frequency.
-\newpage
 
 %%%%%%   Second section
 \section{LTspice Simulation}
+Figure \ref{fig:ltspice1} shows the schematic representation of the parallel RLC circuit as implemented in LTspice.
 
-In order to verify the analytical predictions, the circuit was implemented and simulated using LTspice.
-
-Figure \ref{fig:ltspice} shows the schematic representation of the parallel RLC circuit as implemented in LTspice.
-
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{./exercise 1/RLCParallelCircuit.png}
+\includegraphics[width=0.5\linewidth]{./exercise 1/RLCParallelCircuit.png}
 \caption{Parallel RLC circuit implemented in LTspice}
-\label{fig:ltspice}
+\label{fig:ltspice1}
 \end{figure}
 
 The AC analysis was performed using the following simulation directive:
@@ -78,34 +56,25 @@ The AC analysis was performed using the following simulation directive:
 \begin{lstlisting}
 .ac dec 1000 1 20G
 \end{lstlisting}
-
-In frequency domain analysis, the impedance \(Z\) of the circuit can be calculated as the ratio of the voltage \(V\) across the circuit to the current \(I\) supplied by the source:
-\begin{equation}
-Z = \frac{V}{I}  = V = 99.98 \ \si{\kilo\ohm}
-\end{equation}
-
-Since the current source is set to \SI{1}{\ampere}, the voltage across the circuit directly corresponds to the impedance.
 \subsection{Resonance Frequency}
-
-The resonance frequency corresponds to the frequency at which the impedance reaches its maximum value. 
-This quantity can be extracted in LTspice using the following directive:
-
+The resonance frequency is extracted in LTspice using the following directives:
 \begin{lstlisting}
 .meas AC max_v MAX mag(V(n001))
 .meas AC f_res WHEN mag(V(n001))=max_v
 \end{lstlisting}
-
-The simulated resonance frequency was found to be approximately \SI{4.109}{\hertz}, which is in excellent agreement with the analytical prediction obtained in the previous section.
-\subsection{Bandwidth}
-
-The bandwidth of the resonance can be determined by finding the frequencies at which the impedance drops to
+The simulated resonance frequency was found to be  $f_r=$\SI{4.109}{\hertz}, which is in excellent agreement with the analytical prediction. The amplitude value associated with the resonance frequency is found to be $V=\SI{99.98}{\kilo\volt}$.
+The impedance \(Z\) of the circuit can be calculated as the ratio of the voltage \(V\) across the circuit to the current \(I=\SI{1}{\ampere}\) supplied by the source:
 \begin{equation}
-\frac{1}{\sqrt{2}}
+Z = \frac{V}{I}  = 99.98 \ \si{\kilo\ohm}
 \end{equation}
+Since the impedance at resonance is equal to the resistance \(R\) in a parallel RLC circuit, the simulated impedance value of \(Z \approx 99.98 \ \si{\kilo\ohm}\) is consistent with the expected value of \(R = \SI{100}{\kilo\ohm}\).
 
+
+\subsection{Bandwidth}
+The bandwidth of the resonance can be determined by finding the frequencies at which the voltage drops to approximately 70.7\%
 of the maximum value, which corresponds to the -3 dB points of the resonance curve.
 
-The following commands were used:
+In order to find these frequencies, the following directives were used:
 
 \begin{lstlisting}
 .meas AC v_3db PARAM max_v*0.707
@@ -113,7 +82,7 @@ The following commands were used:
 .meas AC f_high WHEN mag(V(n001))=v_3db FALL=1
 \end{lstlisting}
 
-The results of the simulation indicate that the lower and upper -3 dB frequencies are approximately $f_1 \approx \SI{4.093}{\giga\hertz}$ and $f_2 \approx \SI{4.125}{\giga\hertz}$, respectively.
+The results indicate that the lower and upper -3 dB frequencies are approximately $f_1 \approx \SI{4.093}{\giga\hertz}$ and $f_2 \approx \SI{4.125}{\giga\hertz}$, respectively.
 
 The bandwidth is then calculated as
 
@@ -122,11 +91,11 @@ The bandwidth is then calculated as
 \end{equation}
 \subsection{Quality Factor}
 
-Using the simulated values of the resonance frequency and the bandwidth, the quality factor can be estimated as
+Using the calculated values in LTSpice of the resonance frequency and the bandwidth, the quality factor can be estimated as
 
 \begin{equation}
-Q = \frac{f_R}{\Delta f} \approx 128.809
+Q = \frac{f_R}{\Delta f} = 128.809
 \end{equation}
 
-This value is in very good agreement with the analytical prediction of \(Q \approx 128\), confirming the consistency between the theoretical analysis and the simulation results.
+This value is in very good agreement with the analytical prediction of \(Q = 128\), confirming the consistency between the theoretical analysis and the simulation results.
 

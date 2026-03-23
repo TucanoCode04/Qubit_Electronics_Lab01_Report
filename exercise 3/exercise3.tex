@@ -1,4 +1,6 @@
-Using the same RLC circuit as the exercise before, this time we are given the values of the capacitance, the resonance frequency, and the quality factor that we want from the circuit, reported in Table \ref{tab:parameters}.
+\chapter{Design an RLC parallel circuit}
+
+Using the same RLC circuit as shown in figure \ref{fig:ltspice1}, this time we are given the values of the capacitance, the resonance frequency, and the quality factor that we want from the circuit, reported in Table \ref{tab:parameters}.
 
 \begin{table}[h]
 \centering
@@ -29,11 +31,11 @@ After that, through the LTspice analysis, we see, as expected, the same behavior
 \hline
  & $f_R$ analytical (GHz) & $f_R$ experimental (GHz) & $Q$ analytical & $Q$ experimental \\
 \hline
-\text{ & 5.000 & 5.0003453 & $10^4$ & 9800 \\
+Values & 5.000 & 5.0003453 & $10^4$ & 9800 \\
 \hline
 \end{tabular}
 \caption{Comparison between given data and experimental values of resonance frequency and quality factor}
 \label{tab:comparison}
 \end{table}
 
-As we can see, the results obtained are close to the theoretical values. A curious thing is that at the beginning the values found weren't so close, because the step in frequency was too big, causing an under-approximation in the calculations. Increasing the number of steps from 10000 to 100000, thus decreasing the size of the step, the approximation obtained was better, as we can see.
+As we can see, the results obtained are close to the theoretical values. A curious thing is that at the beginning the values found weren't so close, because the step in frequency was too coarse, causing an under-approximation in the calculations. Increasing the number of sweep points from 10000 to 100000 and so increasing the frequency resolution, the approximation obtained was closer to the theoretical value, as we can see.
