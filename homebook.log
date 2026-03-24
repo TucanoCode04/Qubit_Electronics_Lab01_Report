@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  24 MAR 2026 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  24 MAR 2026 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,6 +300,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks38
 ) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
 \@indexfile=\write3
 \openout3 = `homebook.idx'.
@@ -323,25 +325,25 @@ LaTeX Warning: Label `fig:three_peaks' multiply defined.
 )
 \openout1 = `homebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 \c@lstlisting=\count311
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 75.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 80.
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count312
@@ -361,19 +363,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Applying patch `item' on input line 75.
-Package microtype Info: Applying patch `toc' on input line 75.
-Package microtype Info: Applying patch `eqnum' on input line 75.
-Package microtype Info: Applying patch `footnote' on input line 75.
-Package microtype Info: Applying patch `verbatim' on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 80.
+Package microtype Info: Applying patch `item' on input line 80.
+Package microtype Info: Applying patch `toc' on input line 80.
+Package microtype Info: Applying patch `eqnum' on input line 80.
+Package microtype Info: Applying patch `footnote' on input line 80.
+Package microtype Info: Applying patch `verbatim' on input line 80.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 75.
+LaTeX Info: Redefining \showhyphens on input line 80.
 Package microtype Info: Tracking enabled.
 Package microtype Info: Using tracking set `all'.
 Package microtype Info: No adjustment of interword spacing.
@@ -384,7 +386,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 <./logopoli.png, id=1, 703.9098pt x 309.7974pt>
 File: ./logopoli.png Graphic file (type png)
 <use ./logopoli.png>
-Package pdftex.def Info: ./logopoli.png  used on input line 80.
+Package pdftex.def Info: ./logopoli.png  used on input line 85.
 (pdftex.def)             Requested size: 227.62204pt x 100.17715pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -433,20 +435,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<./exercise 1/BodeResonanceFrequency.png, id=19, 1839.87375pt x 373.395pt>
-File: ./exercise 1/BodeResonanceFrequency.png Graphic file (type png)
-<use ./exercise 1/BodeResonanceFrequency.png>
-Package pdftex.def Info: ./exercise 1/BodeResonanceFrequency.png  used on input line 68.
-(pdftex.def)             Requested size: 375.57779pt x 76.22171pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [1
 
 
- <./exercise 1/RLCParallelCircuit.png>]) (exercise 2/exercise2.tex
+ <./exercise 1/RLCParallelCircuit.png>]
+<./exercise 1/BodeResonanceFrequency.png, id=29, 1839.87375pt x 373.395pt>
+File: ./exercise 1/BodeResonanceFrequency.png Graphic file (type png)
+<use ./exercise 1/BodeResonanceFrequency.png>
+Package pdftex.def Info: ./exercise 1/BodeResonanceFrequency.png  used on input line 70.
+(pdftex.def)             Requested size: 375.57779pt x 76.22171pt.
+) (exercise 2/exercise2.tex
 
 [2 <./exercise 1/BodeResonanceFrequency.png (PNG copy)>]
 Chapter 2.
@@ -491,55 +491,52 @@ File: ./exercise 5/ThreePeaks.png Graphic file (type png)
 Package pdftex.def Info: ./exercise 5/ThreePeaks.png  used on input line 13.
 (pdftex.def)             Requested size: 375.57779pt x 185.5536pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (exercise 6/exercise6.tex) (exercise 7/exercise7.tex
 
 [7
 
- <./exercise 5/TransmissionLineQubit.png> <./exercise 5/ThreePeaks.png (PNG copy)>]
+ <./exercise 5/TransmissionLineQubit.png> <./exercise 5/ThreePeaks.png (PNG copy)>]) (exercise 6/exercise6.tex
 
 [8]
 Chapter 6.
-<exercise 7/graph_7_bigg.png, id=58, 1882.03125pt x 607.26875pt>
-File: exercise 7/graph_7_bigg.png Graphic file (type png)
-<use exercise 7/graph_7_bigg.png>
-Package pdftex.def Info: exercise 7/graph_7_bigg.png  used on input line 7.
+<exercise 6/graph_7_bigg.png, id=58, 1882.03125pt x 607.26875pt>
+File: exercise 6/graph_7_bigg.png Graphic file (type png)
+<use exercise 6/graph_7_bigg.png>
+Package pdftex.def Info: exercise 6/graph_7_bigg.png  used on input line 7.
 (pdftex.def)             Requested size: 375.57779pt x 121.18288pt.
 
 
 [9
 
- <./exercise 7/graph_7_bigg.png>]
-<exercise 7/graph_7_highqq.png, id=65, 1882.03125pt x 607.26875pt>
-File: exercise 7/graph_7_highqq.png Graphic file (type png)
-<use exercise 7/graph_7_highqq.png>
-Package pdftex.def Info: exercise 7/graph_7_highqq.png  used on input line 22.
+ <./exercise 6/graph_7_bigg.png>]
+<exercise 6/graph_7_highqq.png, id=64, 1882.03125pt x 607.26875pt>
+File: exercise 6/graph_7_highqq.png Graphic file (type png)
+<use exercise 6/graph_7_highqq.png>
+Package pdftex.def Info: exercise 6/graph_7_highqq.png  used on input line 22.
 (pdftex.def)             Requested size: 375.57779pt x 121.18288pt.
-) (exercise 8/exercise8.tex
+) (exercise 7/exercise7.tex
 
-[10 <./exercise 7/graph_7_highqq.png>]
+[10 <./exercise 6/graph_7_highqq.png>]
 Chapter 7.
-<./exercise 8/spread_zoom.png, id=71, 1419.3025pt x 531.9875pt>
-File: ./exercise 8/spread_zoom.png Graphic file (type png)
-<use ./exercise 8/spread_zoom.png>
-Package pdftex.def Info: ./exercise 8/spread_zoom.png  used on input line 8.
+<./exercise 7/spread_zoom.png, id=71, 1419.3025pt x 531.9875pt>
+File: ./exercise 7/spread_zoom.png Graphic file (type png)
+<use ./exercise 7/spread_zoom.png>
+Package pdftex.def Info: ./exercise 7/spread_zoom.png  used on input line 8.
 (pdftex.def)             Requested size: 375.57779pt x 140.77307pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
  []
 
-<./exercise 8/spread_lowc.png, id=72, 1306.8825pt x 551.05875pt>
-File: ./exercise 8/spread_lowc.png Graphic file (type png)
-<use ./exercise 8/spread_lowc.png>
-Package pdftex.def Info: ./exercise 8/spread_lowc.png  used on input line 16.
+<./exercise 7/spread_lowc.png, id=72, 1306.8825pt x 551.05875pt>
+File: ./exercise 7/spread_lowc.png Graphic file (type png)
+<use ./exercise 7/spread_lowc.png>
+Package pdftex.def Info: ./exercise 7/spread_lowc.png  used on input line 16.
 (pdftex.def)             Requested size: 375.57779pt x 158.36508pt.
 )
 
 [11
 
- <./exercise 8/spread_zoom.png> <./exercise 8/spread_lowc.png>] (homebook.aux)
+ <./exercise 7/spread_zoom.png> <./exercise 7/spread_lowc.png>] (homebook.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -550,17 +547,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13488 strings out of 473899
- 277792 string characters out of 5726499
- 710653 words of memory out of 5000000
- 35937 multiletter control sequences out of 15000+600000
- 585766 words of font info for 232 fonts, out of 8000000 for 9000
+ 13536 strings out of 473899
+ 278611 string characters out of 5726499
+ 734953 words of memory out of 5000000
+ 35966 multiletter control sequences out of 15000+600000
+ 587450 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,13n,80p,1081b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on homebook.pdf (13 pages, 890083 bytes).
+Output written on homebook.pdf (13 pages, 890342 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 77880 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 86072 words of extra memory for PDF output out of 89155 (max. 10000000)
 

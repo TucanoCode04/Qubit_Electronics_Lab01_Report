@@ -103,6 +103,8 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\needspace\needspace.sty
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\needspace\needspace.sty
 OUTPUT homebook.idx
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
@@ -151,8 +153,8 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tf
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\donat\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT .\homebook.toc
@@ -201,6 +203,8 @@ OUTPUT homebook.toc
 INPUT .\exercise 1\exercise1.tex
 INPUT .\exercise 1\exercise1.tex
 INPUT exercise 1\exercise1.tex
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\exercise 1\RLCParallelCircuit.png
 INPUT .\exercise 1\RLCParallelCircuit.png
 INPUT .\exercise 1\RLCParallelCircuit.png
@@ -216,6 +220,8 @@ INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT .\exercise 1\BodeResonanceFrequency.png
 INPUT .\exercise 1\BodeResonanceFrequency.png
 INPUT .\exercise 1\BodeResonanceFrequency.png
@@ -266,74 +272,71 @@ INPUT .\exercise 5\ThreePeaks.png
 INPUT .\exercise 6\exercise6.tex
 INPUT .\exercise 6\exercise6.tex
 INPUT exercise 6\exercise6.tex
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT .\exercise 6\graph_7_bigg.png
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
+INPUT .\exercise 6\graph_7_highqq.png
 INPUT .\exercise 7\exercise7.tex
 INPUT .\exercise 7\exercise7.tex
 INPUT exercise 7\exercise7.tex
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT .\exercise 7\graph_7_bigg.png
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 7\graph_7_highqq.png
-INPUT .\exercise 8\exercise8.tex
-INPUT .\exercise 8\exercise8.tex
-INPUT exercise 8\exercise8.tex
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_zoom.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
-INPUT .\exercise 8\spread_lowc.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_zoom.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
+INPUT .\exercise 7\spread_lowc.png
 INPUT homebook.aux
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\donat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

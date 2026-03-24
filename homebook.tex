@@ -35,14 +35,19 @@
 \usepackage{amsfonts}
 \usepackage{amsthm}
 \usepackage{amssymb}
+\usepackage{needspace}
 %\oddsidemargin -1.1cm
 
 \titleformat{\chapter}[block]
-{\normalfont\Large\bfseries\sffamily}
-{\thechapter}{0.75em}{}
-[\vspace{2pt}\rule{\textwidth}{0.4pt}]
+{\normalfont\Large\sffamily\bfseries\centering}
+{}
+{0pt}
+{\rule{1\textwidth}{0.5pt}\vspace{4pt}\\
+\thechapter\quad}
+[\vspace{2pt}\rule{1\textwidth}{0.5pt}]
 
-\titlespacing*{\chapter}{0pt}{-5pt}{12pt}
+\titlespacing*{\chapter}{0pt}{2pt}{6pt}
+
 
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{1em}
@@ -132,6 +137,5 @@
 
 \input{exercise 7/exercise7.tex}
 
-\input{exercise 8/exercise8.tex}
 %% NOW READ THE FILE master.tex  
 \end{document}
