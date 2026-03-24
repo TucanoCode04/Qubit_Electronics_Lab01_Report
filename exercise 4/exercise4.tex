@@ -10,18 +10,18 @@
 \end{figure}
 
 The circuit shown in Figure~\ref{fig:ltspice} models a Josephson junction using a parallel RLC configuration.
-The left branch, composed of the controlled source $B1$ and the capacitor $C1$, generates the phase difference $\phi$ across the junction, since the capacitor integrates the voltage and therefore determines the phase evolution. 
+The left branch, composed of the controlled source $B3$ and the capacitor $C1$, has the role of generating the model of the phase evolution across the junction. 
 The source $B2$ models the Josephson supercurrent $I_s = I_c \sin(\phi)$, while $R1$ represents the normal resistive channel of the junction. 
-Finally, $B3$ provides a time-dependent bias current that drives the junction.
+Finally, $B1$ provides a time-dependent bias current that drives the junction.
 
 \section{AC Josephson Effect}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{./exercise 4/ACJeffect.png}
 \caption{Voltage across the junction showing the AC Josephson effect.}
-\label{fig:three_peaks}
+\label{fig:three_peaks_AC}
 \end{figure}
-The voltage across the junction, as shown in Figure~\ref{fig:three_peaks}, exhibits a series of peaks that correspond to the AC Josephson effect.
+The voltage across the junction, as shown in Figure~\ref{fig:three_peaks_AC}, exhibits a series of peaks that correspond to the AC Josephson effect.
 As the bias current exceeds the critical current $I_c$, the junction transitions into a voltage state where the phase evolves in time, leading to oscillations in the voltage.
 The time intervals between the peaks decrease as the bias current increases, which is consistent with the Joseph voltage–frequency relation, where the frequency of oscillation is proportional to the voltage across the junction.
 
@@ -47,5 +47,4 @@ This behavior is expected because once the bias current exceeds the critical cur
 \[
 f = \frac{2e}{h}V .
 \]
-As the bias current increases, the voltage across the junction also increases due to the resistive branch of the model. 
-Since the oscillation frequency is proportional to the voltage, the peaks occur progressively closer in time, as observed in Table~\ref{tab:peaks}.
+As the bias current increases, the mean value of voltage across the junction also increases due to the resistive branch of the model, and this can be observed in the ascending pattern of the voltage peaks. 
