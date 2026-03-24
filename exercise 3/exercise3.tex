@@ -17,12 +17,14 @@ Quality factor $Q$ & $10^4$ \\
 \label{tab:parameters}
 \end{table}
 
+\section{Analytical calculation of R and L}
 First of all, using the inverse of the analytical formulas from before, it is easy to calculate the physical values of the resistance and inductance of the circuit needed to obtain those $\omega_r$ and $Q$.
 
 \begin{equation}
 L = \frac{1}{(2\pi f_R)^2 C} = 30.26\text{ nH} \qquad R = Q\sqrt{\frac{L}{C}} = 6.36\text{ M}\Omega
 \end{equation}
 
+\section{LTspice simulation}
 After that, through the LTspice analysis, we see, as expected, the same behavior of the voltage across the resistance as in the first two exercises. Using the same technique and directives, we discover from the simulation the values of $\omega_r$ and the quality factor.
 
 \begin{table}[h]

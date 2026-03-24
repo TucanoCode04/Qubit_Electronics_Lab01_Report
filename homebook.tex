@@ -37,17 +37,24 @@
 \usepackage{amssymb}
 \usepackage{needspace}
 %\oddsidemargin -1.1cm
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\clearpage}{}{}{}
+\patchcmd{\chapter}{\cleardoublepage}{}{}{}
+\makeatother
 
+% Chapter formatting
 \titleformat{\chapter}[block]
-{\normalfont\Large\sffamily\bfseries\centering}
-{}
-{0pt}
-{\rule{1\textwidth}{0.5pt}\vspace{4pt}\\
-\thechapter\quad}
-[\vspace{2pt}\rule{1\textwidth}{0.5pt}]
+{\normalfont\Large\sffamily\bfseries}
+{\thechapter.}{0.5em}{}
+[\vspace{2pt}\rule{\textwidth}{0.4pt}]
 
-\titlespacing*{\chapter}{0pt}{2pt}{6pt}
+\titlespacing*{\chapter}{0pt}{20pt}{2pt}
 
+% Section formatting
+\titleformat{\section}[block]
+{\normalfont\large\sffamily}
+{\thesection}{0.5em}{}
 
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{1em}
@@ -56,10 +63,7 @@
 \setlength{\floatsep}{8pt}
 \setlength{\intextsep}{8pt}
 
-\textwidth 16.5cm
-\textheight 24cm
-\topmargin -1.5cm
-\oddsidemargin -1cm
+
 
 \lstset{
     basicstyle=\footnotesize,
