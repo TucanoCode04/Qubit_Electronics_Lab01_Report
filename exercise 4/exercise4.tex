@@ -4,7 +4,7 @@
 \section{Josephson Junction Simulation}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth, height=0.4\linewidth, keepaspectratio]{./exercise 4/JosephsonJunction.png}
+\includegraphics[width=0.7\linewidth, height=0.35\linewidth, keepaspectratio]{./exercise 4/JosephsonJunction.png}
 \caption{Parallel RLC circuit implemented in LTspice}
 \label{fig:ltspice}
 \end{figure}
@@ -28,18 +28,38 @@ The time intervals between the peaks decrease as the bias current increases, whi
 \section{Time analysis of the peaks}
 \begin{table}[H]
 \centering
-\begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
-\hline Peak & Time (ns) \\
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tabular}{c @{\hspace*{0.5cm}} c}
 \hline
-\text{peak 1} &  83.785\\
-\text{peak 2} &  84.122\\
-\text{peak 3} &  84.399\\
-\text{peak 4} &  84.643\\
-\text{peak 5} &  84.866\\
+Peak & Time (ns) \\
+\hline
+\text{peak 1} & 83.785\\
+\text{peak 2} & 84.122\\
+\text{peak 3} & 84.399\\
+\text{peak 4} & 84.643\\
+\text{peak 5} & 84.866\\
 \hline
 \end{tabular}
-\caption{Time of the peaks observed in the voltage across the junction.}
-\label{tab:peaks}
+\caption{Peak times}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tabular}{c @{\hspace*{0.5cm}} c}
+\hline
+Interval & $\Delta t$ (ns) \\
+\hline
+1 $\rightarrow$ 2 & 0.337 \\
+2 $\rightarrow$ 3 & 0.277 \\
+3 $\rightarrow$ 4 & 0.244 \\
+4 $\rightarrow$ 5 & 0.223 \\
+\hline
+\end{tabular}
+\caption{Time differences between peaks}
+\end{minipage}
+
 \end{table}
 
 From the peak times reported in Table~\ref{tab:peaks}, we observe that the time interval between consecutive peaks decreases slightly, meaning that the peaks become progressively closer in time. 
