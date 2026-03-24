@@ -8,7 +8,7 @@ Using the same RLC circuit as shown in figure \ref{fig:ltspice1}, this time we a
 \hline
 Parameter & Value \\
 \hline
-Capacitance $C$ & \SI{50}{\femto\farad} \\
+Capacitance $C$ & {50 fF} \\
 Resonance frequency $f_R$ & \SI{5}{\giga\hertz} \\
 Quality factor $Q$ & $10^4$ \\
 \hline
@@ -20,7 +20,7 @@ Quality factor $Q$ & $10^4$ \\
 First of all, using the inverse of the analytical formulas from before, it is easy to calculate the physical values of the resistance and inductance of the circuit needed to obtain those $\omega_r$ and $Q$.
 
 \begin{equation}
-L = \frac{1}{4\pi^2 f_R^2 C} = 30.26\text{ nH} \qquad R = Q\sqrt{\frac{L}{C}} = 6.36\text{ M}\Omega
+L = \frac{1}{(2\pi f_R)^2 C} = 30.26\text{ nH} \qquad R = Q\sqrt{\frac{L}{C}} = 6.36\text{ M}\Omega
 \end{equation}
 
 After that, through the LTspice analysis, we see, as expected, the same behavior of the voltage across the resistance as in the first two exercises. Using the same technique and directives, we discover from the simulation the values of $\omega_r$ and the quality factor.
@@ -31,11 +31,11 @@ After that, through the LTspice analysis, we see, as expected, the same behavior
 \hline
  & $f_R$ analytical (GHz) & $f_R$ experimental (GHz) & $Q$ analytical & $Q$ experimental \\
 \hline
-Values & 5.000 & 5.0003453 & $10^4$ & 9800 \\
+Values & 5.000 & 5.0003453 & $10^4$ & 9838 \\
 \hline
 \end{tabular}
 \caption{Comparison between given data and experimental values of resonance frequency and quality factor}
 \label{tab:comparison}
 \end{table}
 
-As we can see, the results obtained are close to the theoretical values. A curious thing is that at the beginning the values found weren't so close, because the step in frequency was too coarse, causing an under-approximation in the calculations. Increasing the number of sweep points from 10000 to 100000 and so increasing the frequency resolution, the approximation obtained was closer to the theoretical value, as we can see.
+The results obtained closely match the theoretical values. Initially, a noticeable discrepancy was observed due to the coarse frequency step used in the simulation, which led to an underestimation of the calculated quantities. By increasing the number of sweep points from 10,000 to 1,000,000, and consequently improving the frequency resolution, the numerical approximation converged more closely to the theoretical predictions, as evidenced by the updated results.

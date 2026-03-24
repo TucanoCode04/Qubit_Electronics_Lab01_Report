@@ -1,4 +1,4 @@
-\documentclass[10pt,  english, makeidx, a4paper, titlepage, oneside]{book}
+\documentclass[10pt,  english, a4paper, titlepage, oneside]{book}
 \usepackage{babel}
 \usepackage{fancyhdr}
 \usepackage{makeidx}
@@ -10,9 +10,7 @@
 \usepackage{float}
 \usepackage[subtle]{savetrees}
 \usepackage{etoolbox}
-\makeatletter
-\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-\makeatother
+
 \newenvironment{listato}{\footnotesize}
                         {\normalsize }
 
@@ -39,18 +37,30 @@
 \usepackage{amssymb}
 %\oddsidemargin -1.1cm
 
-\titleformat{\chapter}[display]
-{\normalfont\Large\filcenter\sffamily}
-{\titlerule[0.5pt]%
-\vspace{1pt}
-\titlerule
-\vspace{1pc}
-\LARGE\MakeUppercase{\chaptertitlename} \thechapter
+\titleformat{\chapter}[block]
+{\normalfont\Large\bfseries\sffamily}
+{\thechapter}{0.75em}{}
+[\vspace{2pt}\rule{\textwidth}{0.4pt}]
+
+\titlespacing*{\chapter}{0pt}{-5pt}{12pt}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{1em}
+
+\setlength{\textfloatsep}{10pt}
+\setlength{\floatsep}{8pt}
+\setlength{\intextsep}{8pt}
+
+\textwidth 16.5cm
+\textheight 24cm
+\topmargin -1.5cm
+\oddsidemargin -1cm
+
+\lstset{
+    basicstyle=\footnotesize,
+    aboveskip=5pt,
+    belowskip=5pt
 }
-{1pc}
-{\titlerule
-\vspace{1pc}
-\Huge}
 
 \newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise   ~#1}}
 
@@ -122,6 +132,6 @@
 
 \input{exercise 7/exercise7.tex}
 
-\input{exercise_8/exercise8.tex}
+\input{exercise 8/exercise8.tex}
 %% NOW READ THE FILE master.tex  
 \end{document}

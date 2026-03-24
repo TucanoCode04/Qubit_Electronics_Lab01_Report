@@ -1,14 +1,21 @@
 \chapter{Analysis of the circuit}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{./exercise 5/TransmissionLineQubit.png}
+\includegraphics[width=0.7\linewidth, height=0.4\linewidth, keepaspectratio]{./exercise 5/TransmissionLineQubit.png}
 \caption{Transmission line coupled to the qubit and readout resonator implemented in LTspice.}
 \label{fig:transmission_line_qubit}
 \end{figure}
 
 The circuit shown in Fig.~\ref{fig:transmission_line_qubit} is analyzed for three different values of the qubit inductance, namely $L_{q1} = 20.45\,$nH, $23.45\,$nH, and $26.45\,$nH, in order to evaluate its impact on the system response.
 
-From the Bode diagram, it is observed that the position of the resonance peak varies with the inductance. This behavior is consistent with the dependence of the resonance frequency on the $LC$ parameters of the qubit, according to
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{./exercise 5/ThreePeaks.png}
+\caption{Resonance peaks for different values of the qubit inductance.}
+\label{fig:three_peaks}
+\end{figure}
+
+From the Bode plot in Fig.~\ref{fig:three_peaks}, it is observed that the position of the resonance peak varies with the inductance. This behavior is consistent with the dependence of the resonance frequency on the $LC$ parameters of the qubit, according to
 
 \begin{equation}
 f_q = \frac{1}{2\pi\sqrt{L_q C_q}}.

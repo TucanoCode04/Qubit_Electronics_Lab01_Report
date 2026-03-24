@@ -3,7 +3,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{./exercise 4/JosephsonJunction.png}
+\includegraphics[width=0.7\linewidth, height=0.4\linewidth, keepaspectratio]{./exercise 4/JosephsonJunction.png}
 \caption{Parallel RLC circuit implemented in LTspice}
 \label{fig:ltspice}
 \end{figure}
@@ -13,7 +13,18 @@ The left branch, composed of the controlled source $B1$ and the capacitor $C1$, 
 The source $B2$ models the Josephson supercurrent $I_s = I_c \sin(\phi)$, while $R1$ represents the normal resistive channel of the junction. 
 Finally, $B3$ provides a time-dependent bias current that drives the junction.
 
-\begin{table}[h]
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{./exercise 4/ACJeffect.png}
+\caption{Voltage across the junction showing the AC Josephson effect.}
+\label{fig:three_peaks}
+\end{figure}
+The voltage across the junction, as shown in Figure~\ref{fig:three_peaks}, exhibits a series of peaks that correspond to the AC Josephson effect.
+As the bias current exceeds the critical current $I_c$, the junction transitions into a voltage state where the phase evolves in time, leading to oscillations in the voltage.
+The time intervals between the peaks decrease as the bias current increases, which is consistent with the Joseph voltage–frequency relation, where the frequency of oscillation is proportional to the voltage across the junction.
+
+
+\begin{table}[H]
 \centering
 \begin{tabular}{c @{\hspace*{1cm}} c c @{\hspace*{1cm}} c c}
 \hline Peak & Time (ns) \\

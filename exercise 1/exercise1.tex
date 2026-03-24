@@ -46,7 +46,7 @@ Figure \ref{fig:ltspice1} shows the schematic representation of the parallel RLC
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\linewidth]{./exercise 1/RLCParallelCircuit.png}
+\includegraphics[width=0.6\linewidth, height=0.4\linewidth, keepaspectratio]{./exercise 1/RLCParallelCircuit.png}
 \caption{Parallel RLC circuit implemented in LTspice}
 \label{fig:ltspice1}
 \end{figure}
@@ -62,7 +62,15 @@ The resonance frequency is extracted in LTspice using the following directives:
 .meas AC max_v MAX mag(V(n001))
 .meas AC f_res WHEN mag(V(n001))=max_v
 \end{lstlisting}
-The simulated resonance frequency was found to be  $f_r=$\SI{4.109}{\hertz}, which is in excellent agreement with the analytical prediction. The amplitude value associated with the resonance frequency is found to be $V=\SI{99.98}{\kilo\volt}$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{./exercise 1/BodeResonanceFrequency.png}
+\caption{Bode plot of the circuit showing the resonance frequency}
+\label{fig:bode_resonance}
+\end{figure}
+
+The simulated resonance frequency was found to be  $f_r=$\SI{4.109}{\hertz} as shown in Figure \ref{fig:bode_resonance}, which is in excellent agreement with the analytical prediction. The amplitude value associated with the resonance frequency is found to be $V=\SI{99.98}{\kilo\volt}$.
 The impedance \(Z\) of the circuit can be calculated as the ratio of the voltage \(V\) across the circuit to the current \(I=\SI{1}{\ampere}\) supplied by the source:
 \begin{equation}
 Z = \frac{V}{I}  = 99.98 \ \si{\kilo\ohm}
