@@ -26,7 +26,7 @@ L = \frac{1}{(2\pi f_R)^2 C} = 30.26\text{ nH} \qquad R = Q\sqrt{\frac{L}{C}} = 
 \end{equation}
 
 \section{LTspice simulation}
-After that, through the LTspice analysis, we see, as expected, the same behavior of the voltage across the resistance as in the first two exercises. Using the same technique and directives, we discover from the simulation the values of $f_r$ and the quality factor.
+After that, through the LTspice analysis, we see, as expected, the same behavior of the voltage across the resistance as in the first two exercises. Using the same technique and directives, we discover from the simulation the values of $f_r$ and $Q$.
 
 \begin{table}[h]
 \centering
@@ -41,4 +41,4 @@ Values & 5.000 & 5.0003453 & $10^4$ & 9838 \\
 \label{tab:comparison}
 \end{table}
 
-The results obtained closely match the theoretical values. Initially, a noticeable discrepancy was observed due to the coarse frequency step used in the simulation, which led to an underestimation of the calculated quantities. By increasing the number of sweep points from 10,000 to 1,000,000, and consequently improving the frequency resolution, the numerical approximation converged more closely to the theoretical predictions, as evidenced by the updated results.
+The results obtained closely match the theoretical values. Initially, a noticeable discrepancy was observed in the value of the quality factor $Q$, which was calculated to be $Q\approx6982$. The discrepancy was due to the coarse frequency step used in the simulation, which led to an underestimation of the calculated quantity. In particular, the part more affected by the frequency resolution was the calculation of the frequencies used to determine the bandwith. Thus, by increasing the number of sweep points from 10,000 to 1,000,000, and consequently improving the frequency resolution, the numerical approximation converged more closely to the theoretical predictions, as evidenced by the updated results.

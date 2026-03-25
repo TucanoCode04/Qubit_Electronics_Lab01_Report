@@ -58,11 +58,30 @@ Interval & $\Delta t$ (ns) \\
 \hline
 \end{tabular}
 \caption{Time differences between peaks}
+\label{peaks_times}
 \end{minipage}
 
 \end{table}
+From the peak times reported in Table~\ref{peaks_times}, a clear trend is observed: the time intervals $\Delta t$ between consecutive voltage peaks decrease progressively. This indicates that the oscillation frequency of the junction is increasing over time. Such behavior is a direct manifestation of the AC Josephson effect.
 
-From the peak times reported in Table~\ref{tab:peaks}, we observe that the time interval between consecutive peaks decreases slightly, meaning that the peaks become progressively closer in time. 
+When the bias current $I$ is increased beyond the critical threshold ($I_c = 10\,\mu\mathrm{A}$), the junction can no longer maintain a purely superconducting state with zero voltage. Instead, it enters the "voltage state," where the superconducting phase difference $\phi$ across the junction begins to evolve dynamically. According to the second Josephson relation:
+\[
+V(t) = \frac{\hbar}{2e} \frac{d\phi}{dt}
+\]
+each peak in the voltage trace corresponds to a "phase-slip" event, specifically a rapid $2\pi$ rotation of the phase. 
+
+Since the mean voltage $\langle V \rangle$ across the junction increases as the bias current rises, the Josephson voltage--frequency relation:
+\[
+f = \frac{2e}{h}\langle V \rangle = \frac{1}{\Delta t}
+\]
+dictates that the frequency of these phase-slip events must increase. Consequently, the peaks in the simulation appear progressively closer in time, and the decrease in $\Delta t$ provides a direct temporal measurement of the acceleration of the superconducting phase. This effect is also evident in the amplitude and trend of the voltage peaks observed in the simulation: the peaks follow an overall increasing pattern, reflecting the higher mean voltage level at larger bias currents.
+
+
+
+
+
+
+From the peak times reported in Table~\ref{peaks_times}, we observe that the time interval between consecutive peaks decreases slightly, meaning that the peaks become progressively closer in time. 
 This behavior is expected because once the bias current exceeds the critical current ($I_c = 10\,\mu\mathrm{A}$), the junction enters the voltage state and the phase evolves according to the Josephson voltage–frequency relation 
 \[
 f = \frac{2e}{h}V .
