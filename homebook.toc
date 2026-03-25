@@ -13,14 +13,14 @@
 \contentsline {section}{\numberline {4.1}Josephson Junction Simulation}{4}{}%
 \contentsline {section}{\numberline {4.2}AC Josephson Effect}{5}{}%
 \contentsline {section}{\numberline {4.3}Time analysis of the peaks}{5}{}%
-\contentsline {chapter}{\numberline {5}Analysis of the circuit}{7}{}%
-\contentsline {section}{\numberline {5.1}Transmission line coupled to the qubit and readout resonator}{7}{}%
-\contentsline {section}{\numberline {5.2}Resonance peaks}{7}{}%
-\contentsline {chapter}{\numberline {6}Design of the Qubit Characteristic}{8}{}%
-\contentsline {section}{\numberline {6.1}Circuit design}{8}{}%
-\contentsline {section}{\numberline {6.2}Analysis of the simulation}{8}{}%
+\contentsline {chapter}{\numberline {5}Analysis of the circuit}{6}{}%
+\contentsline {section}{\numberline {5.1}Transmission line coupled to the qubit and readout resonator}{6}{}%
+\contentsline {section}{\numberline {5.2}Resonance peaks}{6}{}%
+\contentsline {chapter}{\numberline {6}Design of the Qubit Characteristic}{7}{}%
+\contentsline {section}{\numberline {6.1}Circuit design}{7}{}%
+\contentsline {section}{\numberline {6.2}Analysis of the simulation}{7}{}%
 \contentsline {section}{\numberline {6.3}Coupled Regime}{8}{}%
-\contentsline {section}{\numberline {6.4}Dispersive Regime}{9}{}%
-\contentsline {section}{\numberline {6.5}Role of the Quality factor $Q$}{9}{}%
+\contentsline {section}{\numberline {6.4}Dispersive Regime}{8}{}%
+\contentsline {section}{\numberline {6.5}Role of the Quality factor $Q$}{8}{}%
 \contentsline {chapter}{\numberline {7}Uncertainty}{9}{}%
-\contentsline {section}{\numberline {7.1}Analysis of the simulation}{10}{}%
+\contentsline {section}{\numberline {7.1}Analysis of the simulation}{9}{}%

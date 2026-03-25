@@ -1,3 +1,4 @@
+\newpage
 \chapter{Uncertainty}
 Working on the previous circuit showed in \ref{fig:transmission_line_qubit}, we now consider a variation of the capacitance $C_g\,=\,50$fF\,$\pm5$\% over 100 samples using a Monte Carlo method.
 \section{Analysis of the simulation}
@@ -8,14 +9,16 @@ Working on the previous circuit showed in \ref{fig:transmission_line_qubit}, we 
 \label{fig:spread_full}
 \end{figure}
 As we can see from the Bode diagram of figure \ref{fig:spread_full}, the variation of $C_g$ leads to a significant shift in the resonance frequency $f_r$ of the resonator for each value of $L_r$. In this situation, is it practically impossible to distinguish the different resonance peaks corresponding to the different values of the inductance. This effect shows how the uncertainty (in this case of the capacitance) can affect the behaviour of a system.\\
-Focussing on the single case of $Lr1=9.006n$H ($f_r=7.5Ghz$), the resonance frequency of the resonator coupled with the system without any variation of $C_g$ is $f_r=3.29Ghz$, while inserting uncertainty 
-this nominal value is spreaded over a range of $\approx120Mhz$ (see \ref{fig:spread_zoom}). This spread is far larger than the shift in the resonance frequency due to the qubit's state, which is of the order of $\approx10MHz$. This points out the importance of the reliabilty of the components and the minimization of the stochastic noise in the system.\\ 
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{./exercise 7/spread_zoom.png}
 \caption{Spread of $f_r$ for $Lr1=9.006n$H}
 \label{fig:spread_zoom}
 \end{figure}
+Focussing on the single case of $Lr1=9.006n$H ($f_r=7.5Ghz$), the resonance frequency of the resonator coupled with the system without any variation of $C_g$ is $f_r=3.29Ghz$, while inserting uncertainty 
+this nominal value is spreaded over a range of $\approx120Mhz$ (see \ref{fig:spread_zoom}). This spread is far larger than the shift in the resonance frequency due to the qubit's state, which is of the order of $\approx10MHz$. This points out the importance of the reliabilty of the components and the minimization of the stochastic noise in the system.\\ 
+
 To mitigate the impact of the uncertainty in $C_g$, one can lower its nominal value, which will result in a less sensitive frequency shift ($\approx60MHz$) due to its variation as shown in \ref{fig:spread_lowc}.\\
 However, this leads also to a smaller quality factor $Q$ of the resonator and so to a less sharp resonance peak, representing a higher loss-rate $k = \frac{f_r*2\pi}{Q}$. This introduce a trade-off between the robustness of the system to the uncertainty and the quality of the resonator.
 \begin{figure}[H]
